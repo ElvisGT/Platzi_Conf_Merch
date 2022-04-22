@@ -9,14 +9,16 @@ import {NotFound} from '../containers/NotFound';
 import {Information} from '../containers/Infomation';
 import {Payment} from '../containers/Payment';
 import '../styles/components/App.css';
-
-
+import {AppContext} from '../context/AppContext';
+import {useInitialState} from '../hooks/useInitialState';
 
 
 
 const App = () => {
+    const initialState = useInitialState();
+
     return (
-        <React.Fragment>
+        <AppContext.Provider value={initialState}>
                 <HashRouter>
                     <Layout>
                         <Routes>
@@ -29,7 +31,7 @@ const App = () => {
                         </Routes>
                     </Layout>
                 </HashRouter>
-        </React.Fragment>
+        </AppContext.Provider>
     )
 }
 
