@@ -5,8 +5,9 @@ import {Products} from '../components/Products';
 
 const Home = () => {
     return (
-           <Products products={initialState.products}/>
-
+            <React.Fragment>
+                    <Products products={initialState.products}/>
+            </React.Fragment>
     );
 };
 
