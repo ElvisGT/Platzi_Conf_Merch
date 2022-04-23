@@ -2,7 +2,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
-  display: grid;
 }
 .Products-item {
   text-decoration: none;
@@ -46,4 +45,11 @@
 }
 .Products-item button:hover {
   background-color: rgba(39,44,49,0.06);
+}
+
+@media screen and (min-width:768px){
+  .Products-items {
+    display: grid;
+    
+  }
 }
