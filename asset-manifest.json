@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/platzi-conf-merch/static/css/main.78726464.css",
+    "main.js": "/platzi-conf-merch/static/js/main.1a1ffcf0.js",
+    "index.html": "/platzi-conf-merch/index.html",
+    "main.78726464.css.map": "/platzi-conf-merch/static/css/main.78726464.css.map",
+    "main.1a1ffcf0.js.map": "/platzi-conf-merch/static/js/main.1a1ffcf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78726464.css",
+    "static/js/main.1a1ffcf0.js"
+  ]
+}
